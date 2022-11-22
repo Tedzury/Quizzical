@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
-import Confetti from "./Confetti.js";
+// import Confetti from "./Confetti.js";
 import Modal from "./Components/Modal";
 import Questions from "./Components/Questions";
 
@@ -93,7 +93,7 @@ export default function App() {
         <Modal onHideModal={hideModal} />
       ) : (
         <>
-          {isTryAgainShown && <Confetti />}
+          {/* {isTryAgainShown && <Confetti />} */}
           <Questions
             questionsData={data}
             isTryAgainShown={isTryAgainShown}
